@@ -1,0 +1,24 @@
+profiles:
+- name: group1
+  owner:
+	kind: user
+	name: group1@test.com
+  resources:
+	hard:
+  	limits.cpu: "1"
+  contributors:
+  - name: shahad@test.com
+	role: admin
+  - name: amjad@test.com
+	role: edit
+  - name: ahmed@canonical.com
+	role: view
+- name: group2
+  owner:
+	kind: user
+	name: group1@test.com
+  contributors:
+  - name: noor@test.com
+	role: edit
+  - name: shahd@canonical.com
+	role: view
