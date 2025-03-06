@@ -11,7 +11,7 @@ profiles:
 	role: admin
   - name: amjad@test.com
 	role: edit
-  - name: ahmed@canonical.com
+  - name: ahmed@test.com
 	role: view
 - name: group2
   owner:
@@ -20,5 +20,5 @@ profiles:
   contributors:
   - name: noor@test.com
 	role: edit
-  - name: shahd@canonical.com
+  - name: shahd@test.com
 	role: view
